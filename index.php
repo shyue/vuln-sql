@@ -50,7 +50,7 @@
 		 <br>
 		 <?php
 		 	if ($_SESSION['[priv]']<=9000){
-				echo "<p>Your privelege level is only <font color = "blue"><b><?php echo $_SESSION['priv']; ?></b></font>...that's too low!<br>Maybe find a more priveleged account?</p>";
+				echo "<p>Your privilege level is only <font color = "blue"><b><?php echo $_SESSION['priv']; ?></b></font>...that's too low!<br>Maybe find a more priveleged account?</p>";
 			}else{
 				echo "<p>Flag: RIP_HARAMBE</p>";
 			}

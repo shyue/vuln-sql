@@ -39,7 +39,7 @@
 		if (mysqli_num_rows($result) > 0){
 			$row=mysqli_fetch_assoc($result);
 			$_SESSION['user']=$row['uname'];
-			$_SESSION['priv']=$row['priveleges'];
+			$_SESSION['priv']=$row['privileges'];
 			echo "<div class='alert login-success'><strong>Login Successful.</strong> Click <a href = '/'>here</a> to return home.</div>";
 		}else{
 			echo "<div class='alert login-success'><strong>Incorrect Login.</strong> Click <a href = '/'>here</a> to return home.</div>";
